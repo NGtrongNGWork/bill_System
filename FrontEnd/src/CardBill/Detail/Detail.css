@@ -1,5 +1,26 @@
+.Details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
 .container{
-    width: 80%;
+    width: 1000px;
     border: 3px solid #fff;
-    border-radius: 5%;
+    background-color: #FED942;
+}
+.container>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 3% 5%;
+}
+button.ShowDetail{
+    padding: 0;
+    border: 0;
+    background-color: #fff;
 }
